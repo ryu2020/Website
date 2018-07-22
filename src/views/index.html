@@ -9,43 +9,61 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>Very Cool Web Page</title>
   </head>
   <body>
     <script>
       AOS.init();
     </script>
     <div class = "container-full-bg" style = "height:100vh">
-        <nav class="navbar navbar-light" style = "height:5vh; background-color:#cae7b9">
-          <div>
-            Robert Yu
+        <nav class="navbar navbar-expand-lg navbar-light" style = "height:5vh; background-color:#cae7b9">
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="about">About</a>
+              <a class="nav-item nav-link" href="contact">Contact</a>
+            </div>
           </div>
         </nav>
-      <div class = "container-full-bg" style = "height:85vh; background-color:#fff8ea">
-        <div class = "container justify-content-center" style = "height:70vh;">
+      <div class = "container-full-bg" style = "height:75vh; background-color:#fff8ea">
+        <div class = "container-fluid justify-content-center" style = "height:60vh">
             <div style = "height:20vh">
             </div>
             <div style = "height:30vh">
-              <h1 style = "font-size:4.5vw">This is my very cool website</h1>
-              <p style = "font-size:2vw"><em>super cool</em></b>
+              <h1 class = "text-center" style = "font-size:4.5vw">This is my very cool website</h1>
+              <p class = "text-center" style = "font-size:2vw"><em>super cool</em></b>
             </div>
-            <div style = "height:20vh">
+            <div style = "height:10vh">
             </div>
         </div>
         <div class = "container-fluid d-flex justify-content-around">
           <div class="p-2">
-            <button type="button" class="btn btn-light" style="background-color:#f2bab3">
-              Music
-            </button>
+            <a type="button" class="btn btn-light" style="background-color:#f2bab3" href="/music">
+              <h3>Music</h3>
+            </a>
           </div>
           <div class="p-2">
-            <button type="button" class="btn btn-light" style="background-color:#f2bab3">
-              Music
-            </button>
+            <a type="button" class="btn btn-light" style="background-color:#f2bab3" href="/programming">
+              <h3>Programming</h3>
+            </a>
           </div>
         </div>
       </div>
-      <div class = "container-full-bg" style = "height:10vh; background-color:#f4ebd7">
+      <div class = "container-full-bg" style = "height:20vh; background-color:#f4ebd7">
+        <div style = "height:5vh">
+        </div>
+        <div class = "text-center">
+          Robert Yu 2018
+        </div>
+        <div style = "height:5vh">
+        </div>
+        <div class = "text-center">
+          <img src = "https://raw.githubusercontent.com/ryu2020/Website/master/src/resources/icons/ok_hand.png" style= "width:5vh; height:5vh">
+        </div>
+
       </div>
     </div>
 
